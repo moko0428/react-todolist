@@ -1,0 +1,28 @@
+:root {
+  --color-1: #c5db93;
+  --color-2: #7eae63;
+  --color-3: #3c8437;
+}
+.date__wrapper {
+  border: 1px none;
+  background-color: rgba(201, 222, 150, 0.5);
+  border-radius: 20px;
+  padding: 5px 10px;
+  text-align: right;
+
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+.date__wrapper:hover {
+  transform: scale(1.1);
+}
+.date__clock {
+  font-size: 5rem;
+  display: block;
+  color: var(--color-2);
+}
+.date__date {
+  font-size: 1.5rem;
+  color: var(--color-2);
+}
