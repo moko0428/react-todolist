@@ -3,12 +3,19 @@ import Weather from "./components/weather";
 import Clock from "./components/clock";
 import Loading from "./components/loading";
 import TodoTemplate from "./components/todoTemplate";
+import TodoHead from "./components/todoHead";
+import TodoList from "./components/todoList";
+import TodoCreate from "./components/todoCreate";
 function App() {
   return (
     <div>
       <Clock />
       {/* <Loading /> */}
-      <TodoTemplate>안녕하세요</TodoTemplate>
+      <TodoTemplate>
+        <TodoHead />
+        <TodoList />
+        <TodoCreate />
+      </TodoTemplate>
     </div>
   );
 }
